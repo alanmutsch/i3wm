@@ -29,6 +29,13 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# lock the screen
+bindsym $mod+Shift+y exec i3lock -c 5b6d8c
+
+# Volume controls
+bindsym ctrl+Shift+a exec amixer -q set Master 5%+ unmute
+bindsym ctrl+Shift+z exec amixer -q set Master 5%- unmute
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
