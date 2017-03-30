@@ -1,0 +1,29 @@
+# Forward Thumb
+"xvkbd -text "\[Control]\[Alt]\[Right]""
+   m:0x0 + b:13
+# Click Thumb
+"xvkbd -text "\[middle]""
+   m:0x0 + b:16
+# Back Thumb
+"xvkbd -text "\[Control]\[Alt]\[Left]""
+   m:0x0 + b:15
+
+# Left tilt
+"xvkbd -text "\[Control]\[Page_Up]""
+   m:0x0 + b:06
+# Right tilt
+"xvkbd -text "\[Control]\[Page_Down]""
+   m:0x0 + b:07
+
+# Search
+"xvkbd -text "\[middle]""
+   c:0xE1
+
+# Click Forward
+"xvkbd -text "\[Control_L]\[w]""
+   m:0x0 + b:9
+
+# ********
+#"xvkbd -text "\[i]\[n]\[i]\[t]\[a]\[i]\[l]\[0]""
+#   m:0x0 + b:8
+
